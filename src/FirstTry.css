@@ -61,15 +61,16 @@ li {
 }
 
 .inner-face {
-  height: 250px;
-  width: 250px;
+  height: 305px;
+  width: 305px;
+  background: #90ccf4a2;
   border: 7px solid #f3d250;
   border-radius: 12px;
   box-shadow: 3px 3px 5px gray;
 }
 
 img {
-  height: 250px;
+  height: 305px;
   border-radius: 5px;
 }
 
@@ -116,9 +117,9 @@ img {
 
 .placard-web-dev {
   position: absolute;
-  width: 190px;
+  width: 220px;
   height: 45px;
-  margin: 240px 0;
+  margin: 290px 0;
   text-align: center;
   line-height: 42px;
   color: white;

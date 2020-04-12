@@ -1,5 +1,5 @@
 import React from 'react';
-import Bill from '../img/Bill-thumb.jpg';
+import Bill from '../img/RPW-temp-pic.png';
 
 const HomePageFirstTry = () => (
   <div>
@@ -27,11 +27,11 @@ const HomePageFirstTry = () => (
       <div className="web-dev">
         Web Developer
       </div> */}
-      {/* <div className="placard-name">
+      <div className="placard-name">
         Rob Watkins
-      </div> */}
+      </div>
       <div className="placard-web-dev">
-        Rob Watkins
+        Web Developer
       </div>
     </div>
   </div>

@@ -14,7 +14,7 @@ const HomePageFirstTry = () => (
         </ul>
       </nav>
     </header>
-    <div className="main-container">
+    <div className="title-box">
       <div className="face-box">
         <div className="inner-face">
           <img src={Bill} alt=""/>
@@ -27,6 +27,12 @@ const HomePageFirstTry = () => (
       <div className="web-dev">
         Web Developer
       </div> */}
+      {/* <div className="placard-name">
+        Rob Watkins
+      </div> */}
+      <div className="placard-web-dev">
+        Rob Watkins
+      </div>
     </div>
   </div>
 )

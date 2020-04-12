@@ -27,12 +27,13 @@ const HomePageFirstTry = () => (
       <div className="web-dev">
         Web Developer
       </div> */}
-      <div className="placard-name">
-        Rob Watkins
-      </div>
-      <div className="placard-web-dev">
-        Web Developer
-      </div>
+      {/* <div className="placard-outline">
+        <div className="placard-web-dev">
+          Rob Watkins
+          <hr className="hr-web-dev"/>
+          <div className="web-dev">Web Developer</div>
+        </div>
+      </div> */}
     </div>
   </div>
 )

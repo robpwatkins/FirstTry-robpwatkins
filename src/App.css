@@ -1,16 +1,23 @@
 .App {
-  height: 100vh;
+  /* height: 100vh; */
   /* min-height: 100vh; */
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+.homepage-container {
+  height: 100vh;
+  border: 3px solid white;
+  border-bottom: none;
+  border-top: none;
+}
+
 .container {
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
   background-image: url(./img/BackgroundFirstTry.JPG);
   background-size: cover;
@@ -25,66 +32,23 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   width: 100%;
   height: 100%;
+  /* padding-top: 45px; */
   align-items: center;
+  justify-content: space-between;
   background: #25293496;
   /* padding-top: 45px; */
 }
 
-
-
-header {
-  height: 20px;
+.tippy-top {
   width: 100%;
-}
+  margin: 0;
+  border-top: 3px solid white;
+  box-shadow: 0px 0px 0px #252934;
 
-ul {
-  display: flex;
-  list-style-type: none;
 }
 
 .top-bar {
-  /* width: 100%; */
-  margin: 0 0 -15px 0;
-  /* border-top: 3px solid #252934;
-  box-shadow: 0px 1px 3px #252934; */
-}
-
-.tabs {
-  display: flex;
-  width: 500px;
-  font-size: 15px;
-}
-
-.tab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 20px;
-  color: #252934;
-  background: white;
-  border: 1px solid white;
-  border-top: none;
-  border-left: none;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 1px 2px 2px #252934;
-  transition: transform .1s;
-  cursor: pointer;
-}
-
-.tab:hover {
-  transform: scale(1.2);
-  transform-origin: top;
-}
-
-.home:hover {
-  transform-origin: left top;
-}
-
-.contact:hover {
-  transform-origin: right top;
+  margin: 45px 0 -10px 0;
 }
 
 .title-box {
@@ -121,13 +85,29 @@ hr {
   text-shadow: 2px 2px 2px #252934;
 }
 
-.blog-box {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  align-items: center;
+footer {
+  width: 100%;
+  height: 65px;
   color: #252934;
-  background: rgba(255, 255, 255, 0.603);
-  border: 1px solid white;
-  border-radius: 10px;
+  background: white;
+  /* border-bottom: 2px solid white; */
+}
+
+.nav-bar {
+  display: flex;
+  height: 65px;
+  width: 60%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  list-style-type: none;
+}
+
+.about-container {
+  color: #252934;
 }

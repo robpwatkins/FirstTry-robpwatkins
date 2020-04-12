@@ -1,10 +1,19 @@
 import React from 'react';
 import Bill from '../img/RPW-temp-pic.png';
+import { Dehaze } from '@material-ui/icons';
 
 const HomePageFirstTry = () => (
   <div>
     <header>
       <hr/>
+      <div className="header-box">
+        <div className="name-box">
+          <div className="name">Rob Watkins</div>
+        </div>
+        <div className="icon-box">
+          <Dehaze />
+        </div>
+      </div>
       <nav>
         <ul>
           <li className="home">Home</li>

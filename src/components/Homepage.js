@@ -1,4 +1,6 @@
 import React from 'react';
+import { Fab } from '@material-ui/core';
+import { Add } from '@material-ui/icons';
 
 function Homepage() {
   return(
@@ -8,12 +10,17 @@ function Homepage() {
           <div className="overlay">
             <hr className="tippy-top" />
             <div className="title-box">
-              <hr className="top-bar"/>
+              {/* <hr className="top-bar"/> */}
               <div className="first-name">Rob</div>
               <div className="last-name">Watkins</div>
               <hr></hr>
               <div className="web-dev">Web Developer</div>
               {/* <hr className="hr2"></hr> */}
+            </div>
+            <div className="fab-box">
+              <Fab>
+                <Add />
+              </Fab>
             </div>
             <footer>
             <div className="nav-bar">

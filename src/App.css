@@ -137,18 +137,18 @@ li:hover {
   margin-left: -6px;
 }
 
-/* .home:hover {
+.home:hover {
   margin-left: -2px;
-} */
+}
 
-.home {
+/* .home {
   height: 57px;
   line-height: 65px;
   color: #252934e5;
   font-weight: bold;
   border-bottom: 5px solid #252934;
   border-bottom: 5px solid #252934e5;
-}
+} */
 
 .about-container {
   color: #252934;

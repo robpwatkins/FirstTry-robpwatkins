@@ -25,10 +25,10 @@ function Homepage() {
             <footer>
             <div className="nav-bar">
               <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li className="home">Home</li>
+                <li className="about">About</li>
+                <li className="portfolio">Portfolio</li>
+                <li className="contact">Contact</li>
               </ul>
             </div>
             </footer>

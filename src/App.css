@@ -151,6 +151,11 @@ li:hover {
   border-bottom: 5px solid #252934e5;
 }
 
+.about-container {
+  color: #252934;
+  padding-top: 75px;
+}
+
 @media (max-width: 800px) {
   ul {
     font-size: 18px;

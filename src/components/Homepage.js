@@ -35,7 +35,20 @@ function Homepage() {
           </div>
         </div>
       </div>
-      {/* <div className="about-container">About, here.</div> */}
+      <div className="about-container">
+        <div className="about-content">
+          <h1>About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti est, recusandae numquam optio non dicta soluta id repellendus, mollitia aut fugit totam odio possimus eos facilis quae laudantium ex.</p>
+        </div>
+      </div>
     </div>
   )
 }
